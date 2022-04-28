@@ -50,7 +50,7 @@ time.sleep(2)
 
 #question number 3
 question_3 = print("3) Who is the longest lasting president of the United States (as of now)?\n(a) Donald Trump\n(b) John F. Kennedy\n(c) James Madison\n(d) Franklin D.Roosevelt\n(e) Edmonton\n(f) Montreal\n\n ")
-answer_3 = "b"
+answer_3 = "d"
 
 for i in range(chances):
     answer = input("Answer: ")
@@ -84,7 +84,7 @@ for i in range(chances):
 time.sleep(2)
 
 #question number 5
-question_5 = print("5) What is Canada's national animal?\n(a) Beaver\n(b) Canadian Horse\n(c) Moose\n(d) Goose\n\n ")
+question_5 = print("5) What is South Africa's national animal?\n(a) Springbok\n(b) African Bush Elephant\n(c) Goose\n(d) African Buffalo\n\n ")
 answer_5 = "a"
 
 for i in range(chances):
@@ -106,7 +106,7 @@ while score >= 4:
     break
 
 while score <= 3:
-    print("Better luck next time! Your score was", score)
+    print("Better luck next time pal! Your score was", score)
     break
 #Goodbye message
 print("Thanks for doing my quiz!")
